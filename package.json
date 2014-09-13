@@ -1,0 +1,42 @@
+{
+    "name": "protean-configurable",
+    "fullname": "Project Template",
+    "description": "Class mixin for configurable instances",
+    "version": "0.1.0",
+    "keywords": [],
+    "main": "./lib/index.js",
+    "dependencies": {
+        "underscore":   "1.x.x",
+        "protean":      ">=0.2.0"
+    },
+    "devDependencies": {
+        "mocha":        "1.x.x",
+        "should":       "3.x.x",
+        "del":          "*",
+        "gulp":         "3.x.x",
+        "gulp-util":    "*",
+        "gulp-ejs":     "0.x.x",
+        "gulp-concat":  "*",
+        "gulp-jsdoc":   "0.x.x",
+        "jsdoc-to-markdown": "0.x.x"
+    },
+    "scripts": {
+        "build": "./node_modules/.bin/gulp",
+        "clobber": "./node_modules/.bin/gulp clobber",
+        "test": "./node_modules/.bin/mocha -R spec test/test-*.js"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/jhamlet/protean-configurable/raw/master/LICENSE"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/jhamlet/protean-configurable.git"
+    },
+    "bugs": {
+        "url": "http://github.com/jhamlet/protean-configurable/issues"
+    },
+    "private": true
+}
