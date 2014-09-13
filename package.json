@@ -37,6 +37,5 @@
     },
     "bugs": {
         "url": "http://github.com/jhamlet/protean-configurable/issues"
-    },
-    "private": true
+    }
 }
