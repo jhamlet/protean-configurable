@@ -1,7 +1,7 @@
 Project Template
 ================
 
-> Lorem ipsum dolar sit amet...
+> Class mixin for configurable instances
 
 
 
